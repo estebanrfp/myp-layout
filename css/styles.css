@@ -254,10 +254,12 @@ div.panel-items > div {
 div.panel-items > div > div {
 	width: 60%;
 	margin: 0 auto;
+	padding: 1em;
 	opacity: 1;
 	bottom: 90px;
 	top: 90px;
 	pointer-events: auto;
+	background-color: #222;
 }
 
 div.panel-items > div > div h3 {
