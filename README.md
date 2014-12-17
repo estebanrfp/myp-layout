@@ -1,6 +1,6 @@
 
-myp-layout
-==========
+myp-layout v0.0.1
+=================
 
 Mi portfolio con transiciones en CSS3
 
