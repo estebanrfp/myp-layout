@@ -235,11 +235,20 @@ div.panel-items > div > div {
 	border: 8px solid rgba(0,0,0,0.1);
 }
 
+.content > ul li a {
+	display: block;
+	padding: 0;
+	border: 8px solid rgba(0,0,0,0.1);
+}
+
 .content > ul li a img {
 	display: block;
 	max-width: 100%;
 }
 
+.content > .redes li{
+	text-align: center;
+}
 /* Panel Items */
 
 div.panel-items,
