@@ -14,5 +14,3 @@ Se acepta todo tipo de pull request, nuestra intención de base sobre este repos
 
 Esteban Fuster Pozzi / @estebanrfp
 [desarrolloactivo.com](https://desarrolloactivo.com)
-
-Licensed under the MIT License
