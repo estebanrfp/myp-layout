@@ -79,7 +79,7 @@ a:hover {
 .main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: red;
+	background: white;
 }
 
 .box {
@@ -392,7 +392,7 @@ div.panel-items > div.hide-current-work {
 	background: green;
 }
 .main > section:nth-child(4).expand {
-	background: red;
+	background: white;
 }
 
 .main.expand-item > section:not(.expand),
