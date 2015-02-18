@@ -13,4 +13,7 @@ Se acepta todo tipo de pull request, nuestra intención de base sobre este repos
 [demo](https://estebanrfp.github.io/myp-layout)
 
 Esteban Fuster Pozzi / @estebanrfp
+
+Visite nuestro portal de tecnologías para la web:
+
 [desarrolloactivo.com](https://desarrolloactivo.com)
