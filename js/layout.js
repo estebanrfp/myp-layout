@@ -12,7 +12,7 @@ var Layout = (function() {
 
 	var $el = $( '#main' ),
 		$sections = $el.children( 'section' ),
-		// works section
+	
 		$sectionWork = $( '#work-section' ),
 		// work items
 		$workItems = $( '#work-items > li' ),
@@ -33,7 +33,7 @@ var Layout = (function() {
 			'msTransition' : 'MSTransitionEnd',
 			'transition' : 'transitionend'
 		},
-		// transition end event name
+
 		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
 		// support css transitions
 		supportTransitions = Modernizr.csstransitions;
@@ -48,7 +48,6 @@ var Layout = (function() {
 			
 			var $section = $( this );
 
-			// expand the clicked section and scale down the others
 			$section.on( 'click', function() {
 
 				if( !$section.data( 'open' ) ) {
