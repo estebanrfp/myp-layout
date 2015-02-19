@@ -14,17 +14,17 @@ var Layout = (function() {
 		$sections = $el.children( 'section' ),
 	
 		$sectionWork = $( '#work-section' ),
-		// work items
+
 		$workItems = $( '#work-items > li' ),
-		// work panels
+
 		$workPanelsContainer = $( '#panel-work-items' ),
 		$workPanels = $workPanelsContainer.children( 'div' ),
 		totalWorkPanels = $workPanels.length,
-		// navigating the work panels
+
 		$nextWorkItem = $workPanelsContainer.find( 'nav > span.next-work' ),
-		// if currently navigating the work items
+
 		isAnimating = false,
-		// close work panel trigger
+
 		$closeWorkItem = $workPanelsContainer.find( 'nav > span.icon-close' ),
 		transEndEventNames = {
 			'WebkitTransition' : 'webkitTransitionEnd',
