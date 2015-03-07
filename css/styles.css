@@ -11,6 +11,17 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/redes/icomoon.eot?q7tf0h');
+	src:url('../fonts/redes/icomoon.eot?#iefixq7tf0h') format('embedded-opentype'),
+		url('../fonts/redes/icomoon.woff?q7tf0h') format('woff'),
+		url('../fonts/redes/icomoon.ttf?q7tf0h') format('truetype'),
+		url('../fonts/redes/icomoon.svg?q7tf0h#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 
 *,
@@ -140,6 +151,9 @@ a:hover {
 	font-size: 2em;
 	margin-bottom: 10px;
 }
+span.icon:before {
+	margin-bottom: 3px;
+}
 
 .icon-about:before {
 	content: "\e000";
@@ -156,6 +170,24 @@ a:hover {
 .icon-contact:before {
 	content: "\e003";
 }
+
+.icon-facebook2:before {
+	content: "\ea8d";
+}
+
+.icon-twitter:before {
+	content: "\ea91";
+}
+
+.icon-github2:before {
+	content: "\eab2";
+}
+
+.icon-linkedin:before {
+	content: "\eac8";
+}
+
+
 
 .main > section .icon-close {
 	position: absolute;
@@ -184,6 +216,10 @@ div.panel-items > div > div {
 	overflow: hidden;
 	overflow-y: auto;
 }
+.redes span, .redes p {
+	display: inline-block;
+	vertical-align: middle;
+}
 
 /* Custom content */
 
@@ -192,6 +228,10 @@ div.panel-items > div > div {
 	padding-bottom: 15px;
 	font-size: 1.7em;
 	line-height: 1.8;
+}
+
+.redes p {
+	padding-bottom: 0;
 }
 
 .content h2 {
@@ -227,6 +267,10 @@ div.panel-items > div > div {
 	display: inline-block;
 	width: 20%;
 	margin: 1%;
+}
+
+.content > ul.redes li {	
+	width: 15%;	
 }
 
 .content > ul li a {
