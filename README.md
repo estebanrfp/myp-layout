@@ -1,6 +1,10 @@
+# myp-layout
+Mi portfolio con transiciones en CSS3
 
-myp-layout
-==========
+## ScreenShoot
+
+![GitHub Logo](docs/screenshot.png)
+
 
 Mi portfolio con transiciones en CSS3
 
